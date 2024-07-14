@@ -1,0 +1,49 @@
+def calculate_average(grades):
+    if not grades:
+        return 0
+    return sum(grades) / len(grades)
+
+def calculate_grade(average):
+    if average >= 90:
+        return "A"
+    elif average >= 80:
+        return "B"
+    elif average >= 70:
+        return "C"
+    elif average >= 60:
+        return "D"
+    else:
+        return "F"
+
+def main():
+    num_students = int(input("Enter the number of students: "))
+    students = {}
+
+    for i in range(num_students):
+        student_name = input(f"Enter name of student {i+1}: ")
+        grades = []
+
+        num_grades = int(input(f"Enter number of grades for {student_name}: "))
+        for j in range(num_grades):
+            grade = float(input(f"Enter grade {j+1} for {student_name}: "))
+            grades.append(grade)
+
+        average_grade = calculate_average(grades)
+        grade_letter = calculate_grade(average_grade)
+
+        students[student_name] = {
+            'grades': grades,
+            'average_grade': average_grade,
+            'grade_letter': grade_letter
+        }
+
+    print("\nStudent Grade Summary:")
+    for student, data in students.items():
+        print(f"Student: {student}")
+        print(f"Grades: {data['grades']}")
+        print(f"Average Grade: {data['average_grade']:.2f}")
+        print(f"Grade Letter: {data['grade_letter']}")
+        print()
+
+if __name__ == "__main__":
+    main()
