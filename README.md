@@ -54,3 +54,8 @@ Grade Letter: C
 ```
 
 This program provides a basic framework for tracking grades and can be expanded further with additional features such as error handling for input, saving data to files, or adding more detailed statistical analysis.
+
+
+Ourpur Of the code :
+
+![Screenshot (22)](https://github.com/user-attachments/assets/2b1fb7f0-a9d5-4a34-b795-671a4b0c8eab)
