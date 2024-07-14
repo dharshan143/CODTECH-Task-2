@@ -6,7 +6,7 @@ Duration : june to july 2024
 Mentor : SANTHOSH KUMAR M
 
 
-
+Project Point Of View :
 
 
 The provided Python program is a simple grade tracker that allows you to input grades for multiple students, calculate their average grade, determine their letter grade based on the average, and then print a summary of each student's grades and corresponding information.
