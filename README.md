@@ -1,7 +1,9 @@
-
-
-
-
+Name : DHARSHAN D
+Intern ID : CT4PP3339
+Company : CODTECH IT SOLUTIONS
+Domain : PYTHON PROGRAMMING
+Duration : june to july 2024
+Mentor : SANTHOSH KUMAR M
 
 
 
